@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="src/biscuit.svg" type="image/x-icon" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="contentBox">
+        <div id="mainContent">
+          <h1 id="yourLucky">Qual é sua sorte de hoje ?</h1>
+          <p id="cookieMessage">Abra o biscoito e descubra</p>
+          <img
+            id="cookieImg"
+            src="./src/fortune-cookie.png"
+            alt="Biscoito da sorte com o papel para fora"
+          />
+          <button id="openAnother">Abrir Outro Biscoito</button>
+        </div>
+        <div id="secondaryContent" class="hide">
+          <div id="fortuneMessageSecondary"></div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
